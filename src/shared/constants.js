@@ -2,7 +2,7 @@
 
 /** 应用元信息 */
 const APP_NAME = '特能导';
-const APP_ID = 'com.yanqu.tenengdao';
+const APP_ID = 'com.tenengdao.app';
 const APP_SLOGAN = '链接一贴，内容到手';
 
 /**

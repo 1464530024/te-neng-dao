@@ -93,7 +93,3 @@ unset ELECTRON_RUN_AS_NODE
 ```bash
 node scripts/test-ima.js
 ```
-
----
-
-*研趣大学通 · 本工具仅用于个人学习与资料归档*

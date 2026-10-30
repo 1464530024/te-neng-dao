@@ -5,7 +5,7 @@
   "description": "特能导 — 全平台知识库与网页内容提取导出工具",
   "main": "src/main/main.js",
   "author": {
-    "name": "研趣大学通"
+    "name": "特能导"
   },
   "license": "UNLICENSED",
   "private": true,
