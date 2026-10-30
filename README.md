@@ -57,6 +57,7 @@ npx electron-builder --win nsis
 | [docs/使用说明.md](docs/使用说明.md) | 使用者：安装、操作、常见问题、卸载 |
 | [docs/技术文档.md](docs/技术文档.md) | 开发者：架构、模块、踩坑记录、构建发布 |
 | [docs/GitHub上传说明.md](docs/GitHub上传说明.md) | 维护者：SSH 配置、推送到 GitHub、发布安装包 |
+| [docs/发行说明.md](docs/发行说明.md) | 维护者：各版本发行说明，发布 Release 时取用 |
 
 ## 技术栈
 
