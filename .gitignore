@@ -1,0 +1,42 @@
+# ────────────── 依赖 ──────────────
+node_modules/
+
+# ────────────── 打包产物 ──────────────
+# 安装包体积超过 GitHub 单文件 100MB 上限，通过 GitHub Releases 分发，不入库
+dist/
+out/
+release/
+*.exe
+*.blockmap
+*.dmg
+*.AppImage
+
+# ────────────── 运行日志与临时文件 ──────────────
+logs/
+*.log
+*.tmp
+.tnd-ima-tmp/
+
+# ────────────── 构建工具缓存（electron-builder 等）──────────────
+.cache/
+npm-debug.log*
+
+# ────────────── 系统 / 编辑器 ──────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ────────────── 本地环境与密钥（切勿提交）──────────────
+.env
+.env.*
+*.local
+*.pem
+*.key
+ima_config.json
+.ima_config.json
+
+# ────────────── 图标源图备份 ──────────────
+build/logo-src.backup.png

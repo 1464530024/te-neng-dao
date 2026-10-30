@@ -1,0 +1,32 @@
+{
+  "name": "tenengdao",
+  "productName": "特能导",
+  "version": "1.4.0",
+  "description": "特能导 — 全平台知识库与网页内容提取导出工具",
+  "main": "src/main/main.js",
+  "author": {
+    "name": "研趣大学通"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "pack": "electron-builder --win --dir",
+    "build": "electron-builder --win nsis"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "adm-zip": "^0.6.1",
+    "html-to-docx": "^1.8.0",
+    "marked": "^12.0.2",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "electron-builder": "^26.18.0",
+    "jimp": "^0.22.12",
+    "png-to-ico": "^3.0.2"
+  }
+}
